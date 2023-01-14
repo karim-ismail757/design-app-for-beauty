@@ -1,0 +1,497 @@
+/*************************************Registration Page Start*********************/
+
+* {
+  font-family: Poppins;
+}
+body {
+  overflow-x: hidden;
+  background-color: #e8e8e8;
+}
+.image-content {
+  width: 440px;
+  height: 850px;
+  background: url("../images/background-left-side.png");
+}
+
+.left-content {
+}
+
+.logo {
+  position: relative;
+  top: 100px;
+  left: 72px;
+  width: 162px;
+  height: 42px;
+}
+.main-paragraph {
+  position: relative;
+  top: 211px;
+  left: 72px;
+  width: 298px;
+  height: 113px;
+  font: normal normal 600 28px/37px Poppins;
+  color: #fff;
+}
+
+.secondary-paragraph {
+  position: relative;
+  top: 228px;
+  left: 72px;
+  width: 243px;
+  height: 51px;
+  font: normal normal normal 16px/28px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 0.75;
+}
+
+.right-section {
+  height: 800px;
+  /* UI Properties */
+  background: #f5f6f9 0% 0% no-repeat padding-box;
+  margin-top: 20px;
+}
+
+.right-heading {
+  position: relative;
+  top: 152px;
+  left: 20px;
+  color: #454c66;
+  font-size: 24px;
+  width: 560px;
+  height: 33px;
+  /* UI Properties */
+  font: normal normal 600 24px/24px Poppins;
+  letter-spacing: 0px;
+  color: #454c66;
+  opacity: 1;
+}
+
+.right-paragraph {
+  position: relative;
+  top: 165px;
+  left: 20px;
+  text-align: left;
+  font: normal normal normal 16px/28px Poppins;
+  letter-spacing: 0px;
+  color: #747a88;
+  opacity: 1;
+  font-size: 18px;
+}
+
+.type {
+  position: relative;
+  top: 180px;
+  left: 20px;
+  width: 560px;
+  height: 48px;
+}
+
+label {
+  text-align: left;
+  font: normal normal normal 14px/28px Poppins;
+  letter-spacing: 0px;
+  color: #454c66;
+  opacity: 1;
+}
+
+.section-two-label {
+  position: relative;
+  top: 210px;
+  left: 20px;
+  width: 560px;
+  height: 48px;
+}
+
+.second-section-types {
+  position: relative;
+  top: 210px;
+  left: 25px;
+}
+
+.input-icons img {
+  position: absolute;
+}
+
+.input-icons {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.icon {
+  padding: 2px;
+  min-width: 40px;
+}
+
+.third-section-registration {
+  margin-top: -20px;
+}
+input::placeholder {
+  font-weight: bold;
+  position: relative;
+  left: 30px;
+}
+
+.government {
+  position: relative;
+  top: 220px;
+  width: 272px;
+  height: 48px;
+}
+
+.know-us {
+  position: relative;
+  top: 240px;
+}
+
+.radio-button {
+  display: flex;
+}
+
+.form-check {
+  margin-left: 30px;
+}
+
+.create-account-button {
+  position: relative;
+  top: 280px;
+  background: #635ca8 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  height: 40px;
+  color: #fff;
+  font: normal normal medium 14px/28px Poppins;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+  font-size: 14px;
+  border: none;
+  padding: 10px;
+  text-align: center;
+}
+
+.arrow-icon {
+  margin-left: 5px;
+  margin-bottom: 2px;
+}
+
+.trouble {
+  position: relative;
+  top: 55px;
+  left: 500px;
+}
+
+.trouble-paragraph {
+  font: normal normal normal 14px/28px Poppins;
+  letter-spacing: 0px;
+  color: #38383880;
+}
+
+strong {
+  font: normal normal 600 14px/28px Poppins;
+  letter-spacing: 0px;
+  color: #635ca8;
+}
+strong a {
+  text-decoration: none;
+  color: #635ca8;
+}
+
+@media (max-width: 767.98px) {
+  .type,
+  .second-section-types {
+    width: 400px;
+  }
+
+  .right-section {
+    height: 1050px;
+  }
+  .trouble {
+    position: relative;
+    left: 230px;
+  }
+
+  .verification-content {
+  }
+}
+
+/*************************************Registration Page End*********************/
+
+/***************************success page*************************/
+.sucess-content {
+  position: relative;
+  top: 300px;
+  left: 420px;
+}
+
+.success-heading {
+  font: normal normal 600 24px/24px Poppins;
+  letter-spacing: 0px;
+  color: #454c66;
+  text-transform: capitalize;
+  opacity: 1;
+  position: relative;
+  right: 420px;
+  font-size: 24px;
+  text-align: center;
+}
+
+.success-paragraph {
+  font: normal normal normal Poppins;
+  letter-spacing: 0px;
+  color: #747a88;
+  opacity: 1;
+  overflow-wrap: break-word;
+  font-size: 16px;
+  text-align: center;
+  position: relative;
+  right: 420px;
+}
+
+/************************verification content*********************/
+.verification-content {
+  width: 464px;
+  height: 592px;
+  background-color: #fff;
+  position: relative;
+  top: 30px;
+  left: 330px;
+  border-radius: 20px;
+}
+
+.verification-img {
+  position: relative;
+  left: 150px;
+  top: 60px;
+}
+
+.verify-input {
+  margin-left: 23px;
+  width: 88px;
+}
+
+.verification-heading {
+  position: relative;
+  top: 100px;
+  left: 140px;
+  color: #454c66;
+  font-size: 24px;
+}
+
+.verification-paragraph {
+  position: relative;
+  top: 120px;
+  left: 18px;
+  color: #747a88;
+  font-size: 16px;
+}
+
+.third-section {
+  position: relative;
+  top: 130px;
+  left: -25px;
+}
+
+.verification-third-paragraph {
+  position: relative;
+  top: 80px;
+  left: 80px;
+}
+
+.verify-input {
+  padding: 10px;
+  margin-top: -10px;
+}
+
+.verification-third-paragraph {
+  font: normal normal medium 14px/24px Poppins;
+  letter-spacing: 0px;
+  color: #747a88;
+  font-size: 14px;
+  position: relative;
+  left: 95px;
+  margin-top: -20px;
+}
+
+.green {
+  color: #6ac7bb;
+}
+
+.verify-button {
+  position: relative;
+  top: 120px;
+  left: 142px;
+  background: #635ca8 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+  width: 176px;
+  padding: 14px;
+  border: none;
+  color: #fff;
+  text-transform: uppercase;
+  margin-top: -100px;
+}
+@media (max-width: 767.98px) {
+  .verification-content {
+    position: relative;
+    left: 0px;
+  }
+}
+
+/***************************main registration page *************************/
+
+.next-button {
+  padding: 10px;
+  text-align: center;
+  position: relative;
+  bottom: 10px;
+}
+
+.next-arrow {
+  margin-left: 20px;
+}
+
+.email-address {
+  margin-top: 3px;
+}
+
+.first-name,
+.last-name {
+  margin-bottom: 10px;
+}
+
+.password {
+  margin-top: 10px;
+}
+
+form {
+  width: 300px;
+}
+
+.intl-tel-input {
+  display: table-cell;
+}
+.intl-tel-input .selected-flag {
+  z-index: 4;
+}
+.intl-tel-input .country-list {
+  z-index: 5;
+}
+.input-group .intl-tel-input .form-control {
+  border-top-left-radius: 4px;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 0;
+}
+
+input {
+  width: 250px;
+  padding: 10px;
+  border-radius: 2px;
+  border: 1px solid #ccc;
+}
+input::placeholder {
+  color: #bbb;
+}
+
+.telephone {
+  position: relative;
+  top: 195px;
+  left: 20px;
+}
+
+.first-name,
+.last-name {
+  margin-bottom: 20px;
+}
+
+.password {
+  margin-top: -25px;
+}
+
+.registration-main-input {
+}
+
+.policy {
+  position: relative;
+  top: 285px;
+  display: flex;
+  margin-left: 30px;
+}
+
+.policy-paragraph {
+  font: normal normal normal 14px/24px Poppins;
+  letter-spacing: 0px;
+  color: #454c66;
+  font-size: 14px;
+  margin-top: 3px;
+  margin-left: 3px;
+}
+
+.privacy-link {
+  text-decoration: none;
+  color: #3482f4;
+}
+
+.info-box {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 16px 16px 57px 16px;
+  opacity: 1;
+  position: relative;
+  bottom: 230px;
+  left: 55px;
+  padding: 15px;
+}
+
+.info-paragraph {
+  font: normal normal normal 14px/24px Poppins;
+  letter-spacing: 0px;
+  color: #383838;
+  opacity: 1;
+  font-size: 14px;
+  margin-left: 14px;
+}
+.info-heading {
+  font: normal normal medium 16px/24px Poppins;
+  letter-spacing: 0px;
+  color: #383838;
+  opacity: 1;
+  font-size: 16px;
+  margin-left: 14px;
+}
+
+.title {
+  font: normal normal normal 12px/24px Poppins;
+  letter-spacing: 0px;
+  color: #383838;
+  opacity: 0.5;
+  font-size: 12px;
+  margin-left: 14px;
+}
+
+.like-img {
+  position: absolute;
+  left: -30px;
+  bottom: 110px;
+}
+
+.form-check-input,
+.checks {
+  width: 15px !important;
+  height: 15px !important;
+  margin-right: 4px;
+}
+@media (min-width: 1200px) {
+  .registration-main-input {
+    width: 272px;
+  }
+}
+
+@media (max-width: 768px) {
+  .info-box {
+    width: 330px;
+    position: relative;
+    right: 40px;
+  }
+}
